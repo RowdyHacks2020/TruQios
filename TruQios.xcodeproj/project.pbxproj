@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F7625993E13D8D4B0A6695D /* Pods_TruQiosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D0011360DD63872DEE4831 /* Pods_TruQiosTests.framework */; };
 		8B1BB2DF2430664700B0E5E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1BB2DE2430664700B0E5E3 /* AppDelegate.swift */; };
 		8B1BB2E12430664700B0E5E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1BB2E02430664700B0E5E3 /* SceneDelegate.swift */; };
 		8B1BB2E32430664700B0E5E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1BB2E22430664700B0E5E3 /* ViewController.swift */; };
@@ -15,6 +16,10 @@
 		8B1BB2EB2430664E00B0E5E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1BB2E92430664E00B0E5E3 /* LaunchScreen.storyboard */; };
 		8B1BB2F62430664E00B0E5E3 /* TruQiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1BB2F52430664E00B0E5E3 /* TruQiosTests.swift */; };
 		8B1BB3012430664E00B0E5E3 /* TruQiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1BB3002430664E00B0E5E3 /* TruQiosUITests.swift */; };
+		8B4A0BB6243069B100E9F4D6 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B4A0BB5243069B100E9F4D6 /* awsconfiguration.json */; };
+		8B4A0BB824306E7900E9F4D6 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4A0BB724306E7900E9F4D6 /* API.swift */; };
+		E877FF84C4178D40B582AF7E /* Pods_TruQios_TruQiosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1AE66F4EF41738EE07C0E7E /* Pods_TruQios_TruQiosUITests.framework */; };
+		EBC76AEF14F110511AF736AA /* Pods_TruQios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F1F899D84B109E0ADE0AAE /* Pods_TruQios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05B601267940980378E1E401 /* Pods-TruQiosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruQiosTests.debug.xcconfig"; path = "Target Support Files/Pods-TruQiosTests/Pods-TruQiosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		104650648F824EEFD43DA3AB /* Pods-TruQios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruQios.debug.xcconfig"; path = "Target Support Files/Pods-TruQios/Pods-TruQios.debug.xcconfig"; sourceTree = "<group>"; };
+		3ADA43CF1471B5B5F93F5FFD /* Pods-TruQios-TruQiosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruQios-TruQiosUITests.debug.xcconfig"; path = "Target Support Files/Pods-TruQios-TruQiosUITests/Pods-TruQios-TruQiosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		45D0011360DD63872DEE4831 /* Pods_TruQiosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TruQiosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA85E657FB7358530A2CB9D /* Pods-TruQios-TruQiosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruQios-TruQiosUITests.release.xcconfig"; path = "Target Support Files/Pods-TruQios-TruQiosUITests/Pods-TruQios-TruQiosUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8B1BB2DB2430664700B0E5E3 /* TruQios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruQios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B1BB2DE2430664700B0E5E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B1BB2E02430664700B0E5E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,12 @@
 		8B1BB2FC2430664E00B0E5E3 /* TruQiosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TruQiosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B1BB3002430664E00B0E5E3 /* TruQiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruQiosUITests.swift; sourceTree = "<group>"; };
 		8B1BB3022430664E00B0E5E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B4A0BB5243069B100E9F4D6 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
+		8B4A0BB724306E7900E9F4D6 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = SOURCE_ROOT; };
+		A5F1F899D84B109E0ADE0AAE /* Pods_TruQios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TruQios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1AE66F4EF41738EE07C0E7E /* Pods_TruQios_TruQiosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TruQios_TruQiosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C79EF127BE28E3F36605A1C8 /* Pods-TruQios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruQios.release.xcconfig"; path = "Target Support Files/Pods-TruQios/Pods-TruQios.release.xcconfig"; sourceTree = "<group>"; };
+		DF985CCBB867008E3EF0D2DE /* Pods-TruQiosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruQiosTests.release.xcconfig"; path = "Target Support Files/Pods-TruQiosTests/Pods-TruQiosTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBC76AEF14F110511AF736AA /* Pods_TruQios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F7625993E13D8D4B0A6695D /* Pods_TruQiosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E877FF84C4178D40B582AF7E /* Pods_TruQios_TruQiosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AE61CF92F0562D772FF124C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				104650648F824EEFD43DA3AB /* Pods-TruQios.debug.xcconfig */,
+				C79EF127BE28E3F36605A1C8 /* Pods-TruQios.release.xcconfig */,
+				3ADA43CF1471B5B5F93F5FFD /* Pods-TruQios-TruQiosUITests.debug.xcconfig */,
+				5EA85E657FB7358530A2CB9D /* Pods-TruQios-TruQiosUITests.release.xcconfig */,
+				05B601267940980378E1E401 /* Pods-TruQiosTests.debug.xcconfig */,
+				DF985CCBB867008E3EF0D2DE /* Pods-TruQiosTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1E1E9CAF3D1C325200BE9001 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5F1F899D84B109E0ADE0AAE /* Pods_TruQios.framework */,
+				B1AE66F4EF41738EE07C0E7E /* Pods_TruQios_TruQiosUITests.framework */,
+				45D0011360DD63872DEE4831 /* Pods_TruQiosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8B1BB2D22430664700B0E5E3 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +125,8 @@
 				8B1BB2F42430664E00B0E5E3 /* TruQiosTests */,
 				8B1BB2FF2430664E00B0E5E3 /* TruQiosUITests */,
 				8B1BB2DC2430664700B0E5E3 /* Products */,
+				0AE61CF92F0562D772FF124C /* Pods */,
+				1E1E9CAF3D1C325200BE9001 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +143,8 @@
 		8B1BB2DD2430664700B0E5E3 /* TruQios */ = {
 			isa = PBXGroup;
 			children = (
+				8B4A0BB724306E7900E9F4D6 /* API.swift */,
+				8B4A0BB5243069B100E9F4D6 /* awsconfiguration.json */,
 				8B1BB2DE2430664700B0E5E3 /* AppDelegate.swift */,
 				8B1BB2E02430664700B0E5E3 /* SceneDelegate.swift */,
 				8B1BB2E22430664700B0E5E3 /* ViewController.swift */,
@@ -135,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B1BB3052430664E00B0E5E3 /* Build configuration list for PBXNativeTarget "TruQios" */;
 			buildPhases = (
+				DE55FEA510BC2B3CE7F7BF2A /* [CP] Check Pods Manifest.lock */,
 				8B1BB2D72430664700B0E5E3 /* Sources */,
 				8B1BB2D82430664700B0E5E3 /* Frameworks */,
 				8B1BB2D92430664700B0E5E3 /* Resources */,
+				6A29F319DD794454039E613B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B1BB3082430664E00B0E5E3 /* Build configuration list for PBXNativeTarget "TruQiosTests" */;
 			buildPhases = (
+				FCBF63FECE1E62ECFFE7E6E4 /* [CP] Check Pods Manifest.lock */,
 				8B1BB2ED2430664E00B0E5E3 /* Sources */,
 				8B1BB2EE2430664E00B0E5E3 /* Frameworks */,
 				8B1BB2EF2430664E00B0E5E3 /* Resources */,
@@ -170,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B1BB30B2430664E00B0E5E3 /* Build configuration list for PBXNativeTarget "TruQiosUITests" */;
 			buildPhases = (
+				928E076569192EB379E2937D /* [CP] Check Pods Manifest.lock */,
 				8B1BB2F82430664E00B0E5E3 /* Sources */,
 				8B1BB2F92430664E00B0E5E3 /* Frameworks */,
 				8B1BB2FA2430664E00B0E5E3 /* Resources */,
+				B5116780DDE7B80EDAE8515D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B4A0BB6243069B100E9F4D6 /* awsconfiguration.json in Resources */,
 				8B1BB2EB2430664E00B0E5E3 /* LaunchScreen.storyboard in Resources */,
 				8B1BB2E82430664E00B0E5E3 /* Assets.xcassets in Resources */,
 				8B1BB2E62430664700B0E5E3 /* Main.storyboard in Resources */,
@@ -254,6 +306,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6A29F319DD794454039E613B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TruQios/Pods-TruQios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TruQios/Pods-TruQios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TruQios/Pods-TruQios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		928E076569192EB379E2937D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TruQios-TruQiosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5116780DDE7B80EDAE8515D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TruQios-TruQiosUITests/Pods-TruQios-TruQiosUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TruQios-TruQiosUITests/Pods-TruQios-TruQiosUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TruQios-TruQiosUITests/Pods-TruQios-TruQiosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE55FEA510BC2B3CE7F7BF2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TruQios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCBF63FECE1E62ECFFE7E6E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TruQiosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8B1BB2D72430664700B0E5E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +416,7 @@
 			files = (
 				8B1BB2E32430664700B0E5E3 /* ViewController.swift in Sources */,
 				8B1BB2DF2430664700B0E5E3 /* AppDelegate.swift in Sources */,
+				8B4A0BB824306E7900E9F4D6 /* API.swift in Sources */,
 				8B1BB2E12430664700B0E5E3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +588,7 @@
 		};
 		8B1BB3062430664E00B0E5E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 104650648F824EEFD43DA3AB /* Pods-TruQios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +607,7 @@
 		};
 		8B1BB3072430664E00B0E5E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C79EF127BE28E3F36605A1C8 /* Pods-TruQios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +626,7 @@
 		};
 		8B1BB3092430664E00B0E5E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05B601267940980378E1E401 /* Pods-TruQiosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +649,7 @@
 		};
 		8B1BB30A2430664E00B0E5E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF985CCBB867008E3EF0D2DE /* Pods-TruQiosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +672,7 @@
 		};
 		8B1BB30C2430664E00B0E5E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ADA43CF1471B5B5F93F5FFD /* Pods-TruQios-TruQiosUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +693,7 @@
 		};
 		8B1BB30D2430664E00B0E5E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EA85E657FB7358530A2CB9D /* Pods-TruQios-TruQiosUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
